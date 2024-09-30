@@ -1,0 +1,1 @@
+SELECT * FROM student_test01_details INNER JOIN test1_question_master ON student_test01_details.test1questionmas_key=test1_question_master.test1questionmas_key WHERE student_test01_details.`student_key`=13 AND student_test01_details.`studenttestmas_key`=2 AND test1_question_master.test1_areamas_key=1; 
